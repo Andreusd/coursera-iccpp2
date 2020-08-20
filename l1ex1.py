@@ -1,6 +1,6 @@
-lado=int(input("Digite o valor correspondente ao lado de um quadrado: "))
-perimetro=4*lado
-area=lado**2
-print("perímetro:", perimetro , "- área:",area)
-
-#coded by andré uziel
+def dimensoes(matriz):
+    num_linhas = len(matriz)
+    num_colunas = len(matriz[0])
+    print(num_linhas,"X",num_colunas,sep='')
+    
+matriz = [[1,2,3],[4,5,6],[7,8,9]]
